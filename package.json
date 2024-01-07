@@ -1,0 +1,13 @@
+{
+  "name": "content-forge",
+  "version": "1.0.0",
+  "description": "monorepo for content-forge app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "np install && (cd backend && pip install -r requirements.txt)",
+    "start": "(cd frontend && npm start) & (cd backend && python manage.py runserver)"
+  },
+  "author": "Parwat Kunwar",
+  "license": "ISC"
+}
